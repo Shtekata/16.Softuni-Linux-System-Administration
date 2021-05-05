@@ -1,0 +1,90 @@
+history
+logout
+reboot
+poweroff
+halt
+halt -p
+shutdown
+wall 'Hello users!'
+wall -n 'Hello'
+lo
+logout
+pwd
+cd ..
+pwd
+ cd ..
+cd ..
+pwd
+cd
+pwd
+cd /etc/
+cd /etc/yum
+cd /etc/yum/cd
+cd
+cd /etc
+pwd
+ls
+cd yum
+ls
+cd 
+exit
+ls -alF
+ls
+ip a
+reboot
+logout
+reboot
+ip a
+reboot
+uname --all
+ls
+uname -all
+uname --all
+lslslsLinux centos-machine 4.18.0-240.el8.x86_64 #1 SMP Fri Sep 25 19:48:47 UTC 2020 x86_64 x86_64 x86_64 GNU/LinuxLinux centos-machine 4.18.0-240.el8.x86_64 #1 SMP Fri Sep 25 19:48:47 UTC 2020 x86_64 x86_64 x86_64 GNU/LinuxLinux centos-machine 4.18.0-240.el8.x86_64 #1 SMP Fri Sep 25 19:48:47 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+poweroff
+poweeroff
+poweroff
+turnoff
+poweroff
+exit
+pwd
+cd /
+ls
+ls -al
+cd root
+exit
+cd /
+ls -al
+cd etc
+uname -a
+hostname
+cd
+pwd
+hostnamectl
+hostnamectl set-hostname centos
+hostname
+hostnamectl
+hostnamectl set-hostname --pretty 'Centos Machine'
+hostname
+hostnamectl
+cd ect
+cd ctc
+cd etc
+cat /etc
+ls -al /etc
+cat /etc/machine-info
+exit
+date
+date +%Y-%m-%d
+cal -3
+uptime
+history
+exit
+ls -a
+cat .bash_history
+exit
+cat .bash_history
+scp -P 10022 lsauser@localhost:/home/lsauser/.bash_history .
+exit
+
+su -l
