@@ -1,0 +1,144 @@
+reboot
+nmcli d
+vi /etc/sysconf ig/network-scripts/ifcfg-[enp0s3]
+nmcli d
+ip a show enp0s3
+ifup
+exit
+nmcli d
+nmcli dev status
+nmcli dev show enp0s3
+nmcli con delete enp0s3
+nmcli con show
+nmcli con add con-name "enp0s3" ifname enp0s3 autoconnect yes type ethernet ip4 192.168.0.50/24 gw4 192.168.1.1
+nmcli con shoe
+nmcli con show
+nmcli con show --active
+nmcli d
+ip addr show enp0s3
+reboot
+systemctl enable
+exit
+systemctl enable web
+exit
+hostname
+hostnamectl set-hostname CentOSFull
+hostname
+logout
+ls -la
+ip a
+sudo reboot
+ip a
+ls -la
+ip a
+ip r
+ip l
+sudo hostnamectl set-hostname pirin.lsa.lab
+sudo hostnamectl set-hostname --pretty 'CentOS Client'
+hostnamectl
+ip l
+ip r
+nmcli general status
+nmcli general
+nmcli g
+nmcli c
+nmcli connection show
+sudo nmcli c del virbr0
+nmcli c
+ip a
+nmcli c
+cd /etc/sysconfig
+ls -la
+cd network-scripts
+ls -la
+cat ifcfg-enp0s3
+sudo vi ifcfg-enp0s3
+ip a
+sudo nmcli c down&&sudo nmcli c up
+sudo nmcli c enp0s3 down&&sudo nmcli c enp0s3 up
+sudo nmcli c enp0s3 down; sudo nmcli c enp0s3 up
+sudo nmcli connection enp0s3 down&&sudo nmcli connection enp0s3 up
+sudo nmcli connection 'enp0s3' down&&sudo nmcli connection 'enp0s3' up
+nmcli c
+sudo nmcli c down enp0s3&&sudo nmcli c up enp0s3
+ip a
+ip a sh enp0s3
+ip a enp0s3
+ip a sh enp0s3
+sudo reboot
+ip a
+ping 192.168.135.1
+ping softuni.bg
+nmcli c sh enp0s3
+nmcli dev status
+nmcli dev sh enp0s3
+ip r
+cat var/lib/dhcp/dhcpd.leases
+cat /var/lib/dhcp/dhcpd.leases
+cd /var
+cd lib
+cd dhcp
+ls -la
+cd
+ping 192.168.135.1
+ping softuni.bg
+ping distrowatch.com
+ip a
+ping 192.168.135.1
+ftp 192.168.135.1
+exit
+ftp 192.168.135.1
+ip a
+cd etc
+cd /etc
+ls -la
+cd vsftpd
+ls -la
+sudo vi vsftpd.conf.rpmsave
+ftp 192.168.135.1
+cd /etc
+ls -la
+cd vsftpd
+ls -la
+sudo vi vsftpd.conf.rpmsave
+sudo service vsftpd restart
+sudo reboot
+ftp 192.168.135.1
+cd /etc
+ls -la
+sudo vi vsftpd
+cd vsftpd
+ls -la
+sudo vi vsftpd.conf.rpmsave
+sudo firewall-cmd --zone=internall --add-service=ftp --permanent
+sudo firewall-cmd --zone=internal --add-service=ftp --permanent
+sudo firewall-cmd status
+firewall-cmd --help
+firewall-cmd --list-all
+firewall-cmd --list-ports
+ftp 192.168.135.1
+ls -la
+sudo vi vsftpd.conf.rpmsave
+firewall-cmd restart
+sudo firewall-cmd --state
+sudo firewall-cmd --reload
+ftp 192.168.135.1
+ls -la
+sudo vi vsftpd.conf.rpmsave
+sudo systemctl restart vsftpd
+sudo reboot
+ftp 192.168.135.1
+ping 192.168.135.1
+ftp 192.168.135.1
+firewall-cmd --permanent --add-port=21/tcp
+firewall-cmd --reload
+ftp 192.168.135.1
+sudo firewall-cmd --permanent --add-port=22/tcp
+sudo firewall-cmd --permanent --add-port=990/tcp
+sudo firewall-cmd --permanent --add-port=40000:50000/tcp
+sudo firewall-cmd --permanent --add-port=SSH
+sudo firewall-cmd --permanent --help
+sudo firewall-cmd --help
+sudo firewall-cmd --reload
+ftp 192.168.135.1
+sudo reboot
